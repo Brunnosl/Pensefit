@@ -37,5 +37,8 @@ A compilação falha se algum exercício não tiver demonstração ou apontar pa
 - Revalidados no backend real: autenticação, 23 entidades da plataforma, 12 entidades de corrida, estoque, compras, arquivos privados, isolamento entre contas e consentimento de Box/Coach.
 - Revalidados com o provedor real: conversa, receita, PDF sintético, conexão, proposta de WOD e proposta de corrida.
 - Exclusão de conta verificada com usuário e arquivo temporários.
+- Verificação final no Vercel: 20 cenários aprovados, sem falhas ou erros de JavaScript; as 70 demonstrações foram abertas no domínio público. O hash do bundle publicado coincidiu com o arquivo compilado localmente.
+- O catálogo de exercícios usado pelo servidor foi comparado ao manifesto: nenhuma entrada ficou sem correspondência visual.
+- Limpeza concluída: nenhuma conta temporária ou arquivo privado desses testes permaneceu no Supabase.
 
 Os testes reais usam contas descartáveis e dados sintéticos. A verificação em navegador não comprova entrega em caixas de e-mail, precisão de GPS em campo ou comportamento nativo com tela bloqueada. Exercícios personalizados com nomes livres precisam ter sua técnica associada pelo autor do plano; a demonstração automática cobre o catálogo interno.
