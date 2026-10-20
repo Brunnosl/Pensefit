@@ -9,7 +9,7 @@ async function filter(page,goal='all',meal='all',query=''){await page.locator('#
 const details=page=>page.locator('#nutriHost [data-action="recipe-detail"]');
 
 for(const width of [1280,360])test(`receitas ${width}px: perfil, objetivos, refeições e busca selecionam o catálogo`,async({page})=>{
- await page.setViewportSize({width,height:844});await boot(page);
+ await page.setViewportSize({width,height:844});await boot(page);if(width<600)expect((await page.locator('#pf-recipe-goal').boundingBox()).width).toBeGreaterThan(300);
  await expect(details(page)).toHaveCount(catalog.RECIPES.filter(r=>r.goals.includes('loss')).length);
  for(const goal of ['gain','loss','maintain']){await filter(page,goal);await expect(details(page)).toHaveCount(catalog.RECIPES.filter(r=>r.goals.includes(goal)).length)}
  await filter(page,'gain','breakfast');await expect(details(page)).toHaveCount(catalog.RECIPES.filter(r=>r.goals.includes('gain')&&r.meals.includes('breakfast')).length);
