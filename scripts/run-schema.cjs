@@ -1,0 +1,18 @@
+const fs=require('node:fs');
+const kinds=['run_profiles','run_goals','run_plans','run_sessions','run_activities','run_races','run_routes','run_shoes','run_challenges','run_achievements','run_sync','run_records'];
+let sql='-- Pense Run: expansão aditiva com percursos privados e revisão otimista.\n';
+for(const kind of kinds)sql+=`create table public.pensefit_${kind} (id uuid primary key default gen_random_uuid(),user_id uuid not null references auth.users(id) on delete cascade,date date not null default current_date,data jsonb not null check(jsonb_typeof(data)='object' and octet_length(data::text)<=8388608),revision bigint not null default 0,created_at timestamptz not null default now(),updated_at timestamptz not null default now(),unique(user_id,id));
+create index pensefit_${kind}_owner_date on public.pensefit_${kind}(user_id,date desc);
+alter table public.pensefit_${kind} enable row level security;
+revoke all on public.pensefit_${kind} from public,anon,authenticated;
+grant select,insert,update,delete on public.pensefit_${kind} to authenticated;
+create policy pensefit_${kind}_owner on public.pensefit_${kind} for all to authenticated using((select auth.uid())=user_id) with check((select auth.uid())=user_id);
+create trigger pensefit_${kind}_stamp before update on public.pensefit_${kind} for each row execute function public.pensefit_stamp_record();\n`;
+sql+=`create unique index pensefit_run_profile_unique on public.pensefit_run_profiles(user_id);
+create unique index pensefit_run_import_unique on public.pensefit_run_activities(user_id,(data->>'source'),(data->>'externalId')) where data ? 'externalId';
+create unique index pensefit_run_active_unique on public.pensefit_run_activities(user_id) where data->>'status' in('active','paused');
+alter table public.pensefit_run_activities add constraint run_activity_shape check(coalesce(data->>'status' in('active','paused','completed') and pensefit_private.valid_text(data->'name',1,120) and pensefit_private.valid_number(data->'distanceMeters',0,1000000) and pensefit_private.valid_number(data->'movingSeconds',0,604800) and pensefit_private.valid_number(data->'elapsedSeconds',0,1209600) and jsonb_typeof(data->'points')='array' and jsonb_array_length(data->'points')<=20000 and jsonb_typeof(data->'splits')='array',false));
+alter table public.pensefit_calendar drop constraint pensefit_calendar_domain_check;
+alter table public.pensefit_calendar add constraint pensefit_calendar_domain_check check(coalesce(pensefit_private.valid_text(data->'title',1,120) and data->>'modality' in('Musculação','CrossFit','Calistenia','Corrida','Treinos em casa','Treinamento híbrido','Descanso','Recuperação'),false)) not valid;
+notify pgrst,'reload schema';\n`;
+fs.writeFileSync('supabase/run.sql',sql);console.log('Schema Pense Run gerado.');

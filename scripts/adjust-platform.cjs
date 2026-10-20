@@ -1,0 +1,6 @@
+﻿const fs=require('node:fs');
+let s=fs.readFileSync('src/platform/nutri.mjs','utf8');
+s=s.replace("const [name,amount,unit='g',authorizedSubstitution='']=line.split('|').map(s=>s.trim());if(!['g','kg','ml','l','un'].includes(unit))throw new Error('Use g, kg, ml, l ou un.');return{name:text(name,120,1),quantity:amount?finite(amount,.1,100000):null,unit,authorizedSubstitution:text(authorizedSubstitution,500)}", "const [name,amount,unit='',authorizedSubstitution='']=line.split('|').map(s=>s.trim());return{name:text(name,120,1),quantity:amount?finite(amount,.1,100000):null,unit:text(unit,40)||'não informada',authorizedSubstitution:text(authorizedSubstitution,500)}");
+fs.writeFileSync('src/platform/nutri.mjs',s);
+s=fs.readFileSync('src/platform/wod.mjs','utf8').replace("name:d.name,wodId:selected.id,wodKey:","name:d.name,wodId:selected.id,boxWodId:d.boxWodId||null,boxId:d.boxId||null,wodKey:");fs.writeFileSync('src/platform/wod.mjs',s);
+s=fs.readFileSync('dist/auth.js','utf8').replace("gender: $('#signupGender').value }", "gender: $('#signupGender').value, modality: document.getElementById('pf-signup-modality')?.value || 'Musculação', experience: document.getElementById('pf-signup-experience')?.value || 'Iniciante' }");fs.writeFileSync('dist/auth.js',s);

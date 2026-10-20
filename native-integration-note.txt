@@ -1,0 +1,1 @@
+Projetos Capacitor gerados. Código nativo ainda requer compilação e teste físico em Android/iOS.

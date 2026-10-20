@@ -1,0 +1,9 @@
+node_modules/
+test-results/
+playwright-report/
+.env
+.env.*
+!*.example
+.live-fixtures.json
+.live-fixtures.sql
+.live-cleanup.sql

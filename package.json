@@ -1,0 +1,25 @@
+{
+  "name": "pensefit",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "test": "node check.cjs && node --test tests/domain.test.mjs tests/run-domain.test.mjs tests/ai-provider.test.mjs && playwright test",
+    "start": "python -m http.server 3000 --directory dist"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.3",
+    "@capacitor/core": "8.5.3",
+    "@capacitor/ios": "8.5.3",
+    "@fontsource/inter": "5.3.0",
+    "@supabase/supabase-js": "2.117.3",
+    "jspdf": "4.2.1",
+    "leaflet": "1.9.4",
+    "lucide": "1.55.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.3",
+    "@playwright/test": "1.64.0",
+    "esbuild": "0.28.2"
+  }
+}

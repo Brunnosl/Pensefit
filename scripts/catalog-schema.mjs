@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import {exercises,MOVEMENTS,FOODS,RECIPES,BENCHMARKS} from '../src/platform/catalog.mjs';
+const source=fs.readFileSync('dist/app.js','utf8'),match=source.match(/const workouts=(\[[\s\S]*?\n    \]);/);
+if(!match)throw new Error('Plano original não identificado.');
+const workouts=vm.runInNewContext(match[1]);global.window={PenseFit:{getWorkouts:()=>workouts}};
+const groups=[['exercise',exercises()],['movement',MOVEMENTS],['food',FOODS],['recipe',RECIPES],['benchmark',BENCHMARKS]];
+const quote=value=>"'"+String(value).replace(/'/g,"''")+"'";
+const rows=groups.flatMap(([kind,list])=>list.map(item=>`(${quote(kind+'-'+item.id)},${quote(kind)},${quote(JSON.stringify(item))}::jsonb)`));
+fs.writeFileSync('supabase/catalog.sql','-- Catálogo de referência, não são registros pessoais. Dados USDA CC0; demonstrações externas sem re-hospedagem.\ninsert into public.pensefit_catalog(id,kind,data) values\n'+rows.join(',\n')+'\non conflict(id) do nothing;\n');
+console.log(groups.map(([kind,list])=>kind+': '+list.length).join(', '));

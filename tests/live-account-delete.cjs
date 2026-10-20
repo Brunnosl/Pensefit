@@ -1,0 +1,9 @@
+const{createClient}=require('@supabase/supabase-js'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const context={window:{}};vm.runInNewContext(fs.readFileSync('dist/config.js','utf8'),context);const config=context.window.PENSEFIT_CONFIG,fixtures=JSON.parse(fs.readFileSync('.live-fixtures.json','utf8'));
+const a=createClient(config.url,config.publishableKey,{auth:{persistSession:false,autoRefreshToken:false}}),d=createClient(config.url,config.publishableKey,{auth:{persistSession:false,autoRefreshToken:false}});
+(async()=>{try{for(const [client,f]of [[a,fixtures[0]],[d,fixtures[3]]]){const r=await client.auth.signInWithPassword({email:f.email,password:f.password});assert.equal(r.error,null,r.error?.message)}
+ const rejected=await d.functions.invoke('pensefit-account',{body:{action:'delete',confirmation:'ERRADO',userId:fixtures[0].id}});assert.equal(rejected.error?.context.status,400);assert.equal((await d.auth.getUser()).data.user.id,fixtures[3].id);
+ const path=fixtures[3].id+'/other-folder/nested/picture.png',png=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIHWP4z8DwHwAFgAI/ScLbtAAAAABJRU5ErkJggg==','base64');const uploaded=await d.storage.from('pensefit-private').upload(path,new Blob([png],{type:'image/png'}));assert.equal(uploaded.error,null,uploaded.error?.message);
+ const deleted=await d.functions.invoke('pensefit-account',{body:{action:'delete',confirmation:'EXCLUIR MINHA CONTA',userId:fixtures[0].id}});assert.equal(deleted.error,null,deleted.error?.message);assert.equal(deleted.data.deleted,true);assert.ok((await d.auth.getUser()).error);assert.equal((await a.auth.getUser()).data.user.id,fixtures[0].id);
+ console.log('OK: exclusão real exige confirmação, remove arquivos aninhados e apaga apenas o usuário autenticado.');
+ }finally{await a.auth.signOut({scope:'local'});await d.auth.signOut({scope:'local'})}})().catch(error=>{console.error(error.message);process.exitCode=1});
