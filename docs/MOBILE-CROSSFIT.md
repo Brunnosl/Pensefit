@@ -10,5 +10,6 @@ O cabeçalho em telas menores ganhou um botão “Menu” com acesso às 16 áre
 - Navegação por toque nas larguras de 320, 360, 390 e 430 px, sem transbordamento horizontal nas 16 áreas.
 - Abas internas, cadastro e personalização em formulários pequenos.
 - 20 cenários em navegador móvel com backend real: autenticação, 70 demonstrações de exercícios, treinos e séries persistidos, alimentação, compras, medidas, recuperação, calendário, PDF, corrida, integrações, fotos privadas, CrossFit e logout.
+- Os mesmos 20 cenários passaram no Vercel, sem falhas ou erros de JavaScript. O hash do aplicativo publicado coincidiu com a compilação local. As contas e arquivos temporários foram removidos.
 
 Os testes usam emulação de celular no Chrome e contas descartáveis. Não substituem a validação de GPS em campo, teclado virtual, Safari/iOS ou comportamento com a tela bloqueada em um aparelho físico.
