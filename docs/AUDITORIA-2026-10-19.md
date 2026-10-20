@@ -16,11 +16,12 @@ Os testes reais usaram quatro contas temporárias identificadas por um marcador 
 
 - 27 testes de domínio e provedor, incluindo cálculos, cronômetros, GPS sintético, sincronização offline, limites e formato da IA.
 - 42 testes de navegador com servidor simulado, incluindo autenticação, conflito de revisão, persistência, treinos, nutrição, WOD, corrida, consentimento, PWA e regressões das correções.
-- Interface com backend real: login, personalização, navegação por módulos e abas, treino com série e retomada, despensa, receita/lista de compras, medidas, recuperação, calendário, PDF, corrida manual, tênis, importação, mobile, hidratação, plano alimentar, foto privada, WOD e logout.
+- 17 cenários de interface aprovados no Vercel com backend real, sem erros de JavaScript: login, personalização, navegação por módulos e abas, treino com série e retomada, despensa, receita/lista de compras, medidas, recuperação, calendário, PDF, corrida manual, tênis, importação, mobile, hidratação, plano alimentar, foto privada, WOD, chamadas das funções e logout. O hash SHA-256 do bundle servido pelo Vercel coincidiu com o arquivo compilado localmente.
 - Backend real: 23 entidades da plataforma e 12 de corrida, isolamento entre contas, validações, estoque atômico, compras idempotentes, plano alimentar ativo único, fotos privadas, Box/Coach, consentimento e revogação.
 - IA real: conexão, conversa, receita, extração de PDF sintético, WOD e proposta de corrida. Houve uma indisponibilidade por timeout do provedor durante um teste de WOD; uma nova chamada respondeu corretamente. A interface mantém o erro explícito quando o provedor não responde.
 - Busca externa de alimentos por código de barras e exclusão completa de uma conta temporária, incluindo arquivo privado aninhado.
 - CORS: origem Vercel aceita; origem desconhecida bloqueada. O teste de interface também verifica as três funções a partir do navegador.
+- Limpeza confirmada: nenhuma das quatro contas temporárias permaneceu no Auth, e nenhum arquivo dessas contas permaneceu no Storage.
 
 ## Limites da verificação
 
