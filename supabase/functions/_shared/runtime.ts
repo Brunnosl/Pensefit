@@ -1,5 +1,5 @@
 import { createClient } from 'npm:@supabase/supabase-js@2.117.3';
-const allowed = () => (Deno.env.get('ALLOWED_ORIGINS') || 'http://localhost:3000,http://127.0.0.1:3000').split(',').map(v => v.trim());
+const allowed = () => ['http://localhost:3000','http://127.0.0.1:3000','https://pensefit-rose.vercel.app',...(Deno.env.get('ALLOWED_ORIGINS') || '').split(',').map(v => v.trim()).filter(Boolean)];
 export function headers(req: Request) {
   const origin=req.headers.get('Origin');
   return { 'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','Vary':'Origin', ...(origin&&allowed().includes(origin)?{'Access-Control-Allow-Origin':origin}:{}),'Access-Control-Allow-Headers':'authorization, apikey, content-type, x-client-info','Access-Control-Allow-Methods':'POST, OPTIONS' };

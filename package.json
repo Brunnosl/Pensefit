@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build.cjs",
-    "test": "node check.cjs && node --test tests/domain.test.mjs tests/run-domain.test.mjs tests/ai-provider.test.mjs && playwright test",
+    "test": "node check.cjs && node --test tests/domain.test.mjs tests/run-domain.test.mjs tests/active-domain.test.mjs tests/ai-provider.test.mjs && playwright test",
     "start": "python -m http.server 3000 --directory dist"
   },
   "dependencies": {
