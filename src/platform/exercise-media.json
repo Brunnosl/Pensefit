@@ -1,0 +1,1862 @@
+{
+  "Supino reto com barra": {
+    "frames": [
+      {
+        "src": "assets/exercises/Barbell_Bench_Press_-_Medium_Grip-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Barbell_Bench_Press_-_Medium_Grip-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Deite no banco com pés apoiados e escápulas estáveis.",
+      "Segure a barra com punhos alinhados e desça em direção ao peito, sem quicar.",
+      "Empurre até estender os braços com controle e mantenha os apoios."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Barbell_Bench_Press_-_Medium_Grip",
+    "sourceIds": [
+      "Barbell_Bench_Press_-_Medium_Grip"
+    ]
+  },
+  "Supino inclinado com halteres": {
+    "frames": [
+      {
+        "src": "assets/exercises/Incline_Dumbbell_Press-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Incline_Dumbbell_Press-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Halteres",
+    "steps": [
+      "Apoie costas e cabeça no banco inclinado e firme os pés.",
+      "Desça os halteres ao lado do peito, mantendo os antebraços sob a carga.",
+      "Empurre para cima sem bater os halteres e retorne lentamente."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Incline_Dumbbell_Press",
+    "sourceIds": [
+      "Incline_Dumbbell_Press"
+    ]
+  },
+  "Crucifixo no cabo": {
+    "frames": [
+      {
+        "src": "assets/exercises/Cable_Crossover-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Cable_Crossover-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Cabo",
+    "steps": [
+      "Ajuste as polias e avance um pé para estabilizar o tronco.",
+      "Com cotovelos levemente flexionados, aproxime as mãos à frente do peito.",
+      "Abra os braços com controle, sem forçar os ombros além da amplitude confortável."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Cable_Crossover",
+    "sourceIds": [
+      "Cable_Crossover"
+    ]
+  },
+  "Desenvolvimento sentado": {
+    "frames": [
+      {
+        "src": "assets/exercises/Seated_Dumbbell_Press-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Seated_Dumbbell_Press-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Halteres",
+    "steps": [
+      "Sente com costas apoiadas e halteres ao lado dos ombros.",
+      "Empurre para cima sem arquear a lombar.",
+      "Desça até a posição confortável dos ombros, mantendo os punhos alinhados."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Seated_Dumbbell_Press",
+    "sourceIds": [
+      "Seated_Dumbbell_Press"
+    ]
+  },
+  "Elevação lateral": {
+    "frames": [
+      {
+        "src": "assets/exercises/Side_Lateral_Raise-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Side_Lateral_Raise-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Halteres",
+    "steps": [
+      "Fique estável, segurando os halteres ao lado do corpo.",
+      "Eleve os braços lateralmente até próximo à linha dos ombros, sem encolher o pescoço.",
+      "Desça devagar com cotovelos ligeiramente flexionados, sem impulso."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Side_Lateral_Raise",
+    "sourceIds": [
+      "Side_Lateral_Raise"
+    ]
+  },
+  "Tríceps na polia": {
+    "frames": [
+      {
+        "src": "assets/exercises/Triceps_Pushdown-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Triceps_Pushdown-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Cabo",
+    "steps": [
+      "Ajuste a polia alta e mantenha os braços próximos ao tronco.",
+      "Estenda os cotovelos para levar a barra para baixo.",
+      "Retorne dobrando apenas os cotovelos, sem deslocar os ombros."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Triceps_Pushdown",
+    "sourceIds": [
+      "Triceps_Pushdown"
+    ]
+  },
+  "Puxada alta pronada": {
+    "frames": [
+      {
+        "src": "assets/exercises/Wide-Grip_Lat_Pulldown-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Wide-Grip_Lat_Pulldown-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Cabo",
+    "steps": [
+      "Sente e ajuste o apoio das coxas",
+      "segure a barra com palmas para a frente.",
+      "Puxe a barra à frente do corpo em direção à parte alta do peito.",
+      "Estenda os braços de forma controlada, sem puxar atrás da nuca."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Wide-Grip_Lat_Pulldown",
+    "sourceIds": [
+      "Wide-Grip_Lat_Pulldown"
+    ]
+  },
+  "Remada baixa": {
+    "frames": [
+      {
+        "src": "assets/exercises/Seated_Cable_Rows-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Seated_Cable_Rows-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Cabo",
+    "steps": [
+      "Sente com joelhos levemente flexionados e coluna estável.",
+      "Puxe a alça em direção ao abdômen, levando os cotovelos para trás.",
+      "Retorne estendendo os braços sem balançar o tronco."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Seated_Cable_Rows",
+    "sourceIds": [
+      "Seated_Cable_Rows"
+    ]
+  },
+  "Remada unilateral com halter": {
+    "frames": [
+      {
+        "src": "assets/exercises/One-Arm_Dumbbell_Row-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/One-Arm_Dumbbell_Row-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Halteres",
+    "steps": [
+      "Apoie uma mão e um joelho no banco e mantenha a coluna neutra.",
+      "Puxe o halter em direção à lateral do quadril, sem girar o tronco.",
+      "Desça com controle e repita do outro lado."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/One-Arm_Dumbbell_Row",
+    "sourceIds": [
+      "One-Arm_Dumbbell_Row"
+    ]
+  },
+  "Face pull": {
+    "frames": [
+      {
+        "src": "assets/exercises/Face_Pull-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Face_Pull-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Cabo",
+    "steps": [
+      "Ajuste a corda em uma polia alta e adote uma base estável.",
+      "Puxe a corda em direção ao rosto, separando as mãos e abrindo os cotovelos.",
+      "Retorne sem projetar a cabeça para a frente nem arquear a lombar."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Face_Pull",
+    "sourceIds": [
+      "Face_Pull"
+    ]
+  },
+  "Rosca direta": {
+    "frames": [
+      {
+        "src": "assets/exercises/Barbell_Curl-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Barbell_Curl-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Fique em pé com a barra à frente das coxas e palmas para cima.",
+      "Flexione os cotovelos sem balançar o tronco.",
+      "Desça a barra devagar mantendo os braços ao lado do corpo."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Barbell_Curl",
+    "sourceIds": [
+      "Barbell_Curl"
+    ]
+  },
+  "Rosca martelo": {
+    "frames": [
+      {
+        "src": "assets/exercises/Hammer_Curls-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Hammer_Curls-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Halteres",
+    "steps": [
+      "Segure os halteres com as palmas voltadas uma para a outra.",
+      "Flexione os cotovelos mantendo os punhos neutros.",
+      "Retorne com controle, sem mover os ombros para impulsionar a carga."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Hammer_Curls",
+    "sourceIds": [
+      "Hammer_Curls"
+    ]
+  },
+  "Agachamento livre": {
+    "frames": [
+      {
+        "src": "assets/exercises/Barbell_Full_Squat-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Barbell_Full_Squat-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Apoie a barra na região muscular das costas e firme os pés.",
+      "Flexione quadris e joelhos mantendo os joelhos alinhados com os pés.",
+      "Suba empurrando o chão e mantendo o tronco estável. Use suportes de segurança."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Barbell_Full_Squat",
+    "sourceIds": [
+      "Barbell_Full_Squat"
+    ]
+  },
+  "Leg press": {
+    "frames": [
+      {
+        "src": "assets/exercises/Leg_Press-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Leg_Press-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Máquina",
+    "steps": [
+      "Ajuste o banco e apoie toda a sola dos pés na plataforma.",
+      "Flexione os joelhos até a amplitude em que a pelve continue apoiada.",
+      "Empurre a plataforma sem travar os joelhos e controle a volta."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Leg_Press",
+    "sourceIds": [
+      "Leg_Press"
+    ]
+  },
+  "Stiff romeno": {
+    "frames": [
+      {
+        "src": "assets/exercises/Romanian_Deadlift-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Romanian_Deadlift-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Em pé, segure a barra junto às coxas com joelhos ligeiramente flexionados.",
+      "Leve o quadril para trás, mantendo a barra próxima das pernas e coluna estável.",
+      "Retorne estendendo o quadril, sem inclinar o tronco para trás no final."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Romanian_Deadlift",
+    "sourceIds": [
+      "Romanian_Deadlift"
+    ]
+  },
+  "Cadeira extensora": {
+    "frames": [
+      {
+        "src": "assets/exercises/Leg_Extensions-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Leg_Extensions-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Máquina",
+    "steps": [
+      "Alinhe o joelho com o eixo da máquina e ajuste o rolo acima do tornozelo.",
+      "Estenda os joelhos sem tirar o quadril do assento.",
+      "Retorne lentamente, sem deixar a carga bater."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Leg_Extensions",
+    "sourceIds": [
+      "Leg_Extensions"
+    ]
+  },
+  "Panturrilha em pé": {
+    "frames": [
+      {
+        "src": "assets/exercises/Standing_Calf_Raises-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Standing_Calf_Raises-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Máquina",
+    "steps": [
+      "Apoie a parte anterior dos pés na plataforma e estabilize o tronco.",
+      "Eleve os calcanhares mantendo os tornozelos alinhados.",
+      "Desça lentamente até uma amplitude confortável, sem quicar."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Standing_Calf_Raises",
+    "sourceIds": [
+      "Standing_Calf_Raises"
+    ]
+  },
+  "Elevação de pernas": {
+    "frames": [
+      {
+        "src": "assets/exercises/Flat_Bench_Lying_Leg_Raise-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Flat_Bench_Lying_Leg_Raise-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Banco",
+    "steps": [
+      "Deite no banco e segure as laterais para estabilidade.",
+      "Eleve as pernas mantendo o abdômen ativo, sem impulso.",
+      "Desça apenas até onde consiga manter a região lombar controlada."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Flat_Bench_Lying_Leg_Raise",
+    "sourceIds": [
+      "Flat_Bench_Lying_Leg_Raise"
+    ]
+  },
+  "Supino máquina": {
+    "frames": [
+      {
+        "src": "assets/exercises/Machine_Bench_Press-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Machine_Bench_Press-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Máquina",
+    "steps": [
+      "Ajuste o assento para que as alças fiquem na altura do peito.",
+      "Empurre mantendo costas e pés apoiados.",
+      "Retorne com controle sem forçar os ombros para trás."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Machine_Bench_Press",
+    "sourceIds": [
+      "Machine_Bench_Press"
+    ]
+  },
+  "Remada articulada": {
+    "frames": [
+      {
+        "src": "assets/exercises/Leverage_Iso_Row-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Leverage_Iso_Row-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Máquina",
+    "steps": [
+      "Ajuste o banco, estabilize o tronco e segure as alças.",
+      "Puxe levando os cotovelos para trás sem balançar o corpo.",
+      "Estenda os braços lentamente, mantendo os ombros controlados."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Leverage_Iso_Row",
+    "sourceIds": [
+      "Leverage_Iso_Row"
+    ]
+  },
+  "Puxada neutra": {
+    "frames": [
+      {
+        "src": "assets/exercises/Close-Grip_Front_Lat_Pulldown-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Close-Grip_Front_Lat_Pulldown-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Cabo",
+    "steps": [
+      "Ajuste o apoio das coxas e segure a alça com palmas voltadas uma para a outra.",
+      "Puxe a alça em direção ao alto do peito sem jogar o corpo para trás.",
+      "Retorne lentamente até estender os braços com conforto."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Close-Grip_Front_Lat_Pulldown",
+    "sourceIds": [
+      "Close-Grip_Front_Lat_Pulldown"
+    ]
+  },
+  "Rosca Scott": {
+    "frames": [
+      {
+        "src": "assets/exercises/Preacher_Curl-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Preacher_Curl-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Ajuste o banco Scott e apoie a parte posterior dos braços.",
+      "Flexione os cotovelos sem retirar os braços do apoio.",
+      "Desça devagar, sem forçar a extensão final dos cotovelos."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Preacher_Curl",
+    "sourceIds": [
+      "Preacher_Curl"
+    ]
+  },
+  "Tríceps francês": {
+    "frames": [
+      {
+        "src": "assets/exercises/Seated_Triceps_Press-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Seated_Triceps_Press-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Halteres",
+    "steps": [
+      "Sente com apoio estável e segure um halter acima da cabeça.",
+      "Flexione os cotovelos, levando o halter atrás da cabeça sem arquear a lombar.",
+      "Estenda os cotovelos mantendo os braços orientados para cima."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Seated_Triceps_Press",
+    "sourceIds": [
+      "Seated_Triceps_Press"
+    ]
+  },
+  "Rosca cabo + tríceps corda": {
+    "frames": [
+      {
+        "src": "assets/exercises/Standing_Biceps_Cable_Curl-0.jpg",
+        "label": "Rosca no cabo · 1"
+      },
+      {
+        "src": "assets/exercises/Standing_Biceps_Cable_Curl-1.jpg",
+        "label": "Rosca no cabo · 2"
+      },
+      {
+        "src": "assets/exercises/Triceps_Pushdown_-_Rope_Attachment-0.jpg",
+        "label": "Tríceps na corda · 1"
+      },
+      {
+        "src": "assets/exercises/Triceps_Pushdown_-_Rope_Attachment-1.jpg",
+        "label": "Tríceps na corda · 2"
+      }
+    ],
+    "equipment": "Cabo",
+    "steps": [
+      "Primeiro use a polia baixa para a rosca: flexione os cotovelos com palmas para cima.",
+      "Retorne a carga com controle e ajuste a máquina para a polia alta.",
+      "Na corda, estenda os cotovelos junto ao tronco",
+      "conclua as repetições previstas de cada exercício."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Standing_Biceps_Cable_Curl",
+    "sourceIds": [
+      "Standing_Biceps_Cable_Curl",
+      "Triceps_Pushdown_-_Rope_Attachment"
+    ]
+  },
+  "Levantamento terra com trap bar": {
+    "frames": [
+      {
+        "src": "assets/exercises/Trap_Bar_Deadlift-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Trap_Bar_Deadlift-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Trap bar",
+    "steps": [
+      "Entre no centro da trap bar e segure as alças com base estável.",
+      "Estenda quadris e joelhos mantendo o tronco firme e a carga centralizada.",
+      "Flexione quadris e joelhos para apoiar a carga no chão com controle."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Trap_Bar_Deadlift",
+    "sourceIds": [
+      "Trap_Bar_Deadlift"
+    ]
+  },
+  "Agachamento búlgaro": {
+    "frames": [
+      {
+        "src": "assets/exercises/Split_Squat_with_Dumbbells-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Split_Squat_with_Dumbbells-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Halteres",
+    "steps": [
+      "Apoie o peito do pé de trás em um banco estável e firme o pé da frente.",
+      "Flexione o joelho da frente mantendo o alinhamento com o pé.",
+      "Suba com controle e troque o lado, sem impulsionar com a perna de trás."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Split_Squat_with_Dumbbells",
+    "sourceIds": [
+      "Split_Squat_with_Dumbbells"
+    ]
+  },
+  "Mesa flexora": {
+    "frames": [
+      {
+        "src": "assets/exercises/Lying_Leg_Curls-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Lying_Leg_Curls-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Máquina",
+    "steps": [
+      "Deite com joelhos alinhados ao eixo da máquina e rolo acima dos calcanhares.",
+      "Flexione os joelhos aproximando os pés dos glúteos.",
+      "Retorne sem levantar o quadril nem bater a carga."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Lying_Leg_Curls",
+    "sourceIds": [
+      "Lying_Leg_Curls"
+    ]
+  },
+  "Cadeira abdutora": {
+    "frames": [
+      {
+        "src": "assets/exercises/Thigh_Abductor-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Thigh_Abductor-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Máquina",
+    "steps": [
+      "Ajuste o banco e apoie as pernas nos rolos laterais.",
+      "Afaste os joelhos mantendo tronco e pelve estáveis.",
+      "Volte lentamente, sem impulso ou batidas na carga."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Thigh_Abductor",
+    "sourceIds": [
+      "Thigh_Abductor"
+    ]
+  },
+  "Panturrilha sentada": {
+    "frames": [
+      {
+        "src": "assets/exercises/Seated_Calf_Raise-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Seated_Calf_Raise-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Máquina",
+    "steps": [
+      "Apoie a parte anterior dos pés e ajuste os apoios sobre as coxas.",
+      "Eleve os calcanhares mantendo os tornozelos alinhados.",
+      "Desça com controle e faça uma pausa, sem quicar."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Seated_Calf_Raise",
+    "sourceIds": [
+      "Seated_Calf_Raise"
+    ]
+  },
+  "Abdominal no cabo": {
+    "frames": [
+      {
+        "src": "assets/exercises/Cable_Crunch-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Cable_Crunch-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Cabo",
+    "steps": [
+      "Ajoelhe diante da polia alta, segurando a corda próxima à cabeça.",
+      "Flexione o tronco aproximando as costelas da pelve, sem puxar apenas com os braços.",
+      "Retorne lentamente sem perder o controle do quadril."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Cable_Crunch",
+    "sourceIds": [
+      "Cable_Crunch"
+    ]
+  },
+  "Prancha": {
+    "frames": [
+      {
+        "src": "assets/exercises/Plank-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Plank-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Colchonete",
+    "steps": [
+      "Apoie antebraços e pontas dos pés, com cotovelos sob os ombros.",
+      "Mantenha cabeça, tronco e quadril alinhados, respirando normalmente.",
+      "Interrompa a sustentação antes de perder o alinhamento."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Plank",
+    "sourceIds": [
+      "Plank"
+    ]
+  },
+  "Snatch": {
+    "frames": [
+      {
+        "src": "assets/exercises/Snatch-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Snatch-1.jpg",
+        "label": "Posição 2"
+      },
+      {
+        "src": "assets/exercises/diagram-snatch-finish-0.svg",
+        "label": "Recepção em agachamento"
+      },
+      {
+        "src": "assets/exercises/diagram-snatch-finish-1.svg",
+        "label": "Estabilizar em pé"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Posicione os pés e segure a barra com pegada aberta.",
+      "Estenda as pernas e o quadril para aproximar a barra do corpo e receba em agachamento com braços estendidos.",
+      "Estabilize acima da cabeça e levante. Pratique a técnica com orientação antes de adicionar carga."
+    ],
+    "schematic": false,
+    "mixed": true,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense). Etapas complementares: ilustrações originais PenseFit.",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Snatch",
+    "sourceIds": [
+      "Snatch",
+      "diagram:snatch-finish"
+    ]
+  },
+  "Power Snatch": {
+    "frames": [
+      {
+        "src": "assets/exercises/Power_Snatch-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Power_Snatch-1.jpg",
+        "label": "Posição 2"
+      },
+      {
+        "src": "assets/exercises/diagram-power-snatch-finish-0.svg",
+        "label": "Recepção acima do agachamento profundo"
+      },
+      {
+        "src": "assets/exercises/diagram-power-snatch-finish-1.svg",
+        "label": "Estabilizar em pé"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Inicie com pegada aberta e barra próxima do corpo.",
+      "Estenda pernas e quadril e receba acima do agachamento profundo, com braços estendidos.",
+      "Estabilize a barra acima da cabeça antes de retornar. Aprenda com orientação técnica."
+    ],
+    "schematic": false,
+    "mixed": true,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense). Etapas complementares: ilustrações originais PenseFit.",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Power_Snatch",
+    "sourceIds": [
+      "Power_Snatch",
+      "diagram:power-snatch-finish"
+    ]
+  },
+  "Clean": {
+    "frames": [
+      {
+        "src": "assets/exercises/Clean-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Clean-1.jpg",
+        "label": "Posição 2"
+      },
+      {
+        "src": "assets/exercises/diagram-clean-finish-0.svg",
+        "label": "Recepção no agachamento frontal"
+      },
+      {
+        "src": "assets/exercises/diagram-clean-finish-1.svg",
+        "label": "Levantar com a barra nos ombros"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Segure a barra no chão com o tronco estável.",
+      "Estenda pernas e quadril e receba a barra nos ombros em agachamento, com cotovelos altos.",
+      "Levante mantendo a barra apoiada no front rack. Use orientação para aprender a recepção."
+    ],
+    "schematic": false,
+    "mixed": true,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense). Etapas complementares: ilustrações originais PenseFit.",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Clean",
+    "sourceIds": [
+      "Clean",
+      "diagram:clean-finish"
+    ]
+  },
+  "Power Clean": {
+    "frames": [
+      {
+        "src": "assets/exercises/Power_Clean-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Power_Clean-1.jpg",
+        "label": "Posição 2"
+      },
+      {
+        "src": "assets/exercises/diagram-power-clean-finish-0.svg",
+        "label": "Recepção com flexão parcial"
+      },
+      {
+        "src": "assets/exercises/diagram-power-clean-finish-1.svg",
+        "label": "Estabilizar nos ombros"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Posicione a barra junto às pernas e estabilize o tronco.",
+      "Estenda pernas e quadril, levando a barra perto do corpo.",
+      "Receba nos ombros com uma flexão parcial de joelhos e estabilize antes de retornar."
+    ],
+    "schematic": false,
+    "mixed": true,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense). Etapas complementares: ilustrações originais PenseFit.",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Power_Clean",
+    "sourceIds": [
+      "Power_Clean",
+      "diagram:power-clean-finish"
+    ]
+  },
+  "Clean & Jerk": {
+    "frames": [
+      {
+        "src": "assets/exercises/Clean_and_Jerk-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Clean_and_Jerk-1.jpg",
+        "label": "Posição 2"
+      },
+      {
+        "src": "assets/exercises/diagram-jerk-finish-0.svg",
+        "label": "Receber acima da cabeça"
+      },
+      {
+        "src": "assets/exercises/diagram-jerk-finish-1.svg",
+        "label": "Reunir os pés e estabilizar"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Realize o clean e estabilize a barra nos ombros.",
+      "Após uma pequena flexão de pernas, impulsione a barra e receba acima da cabeça.",
+      "Reúna os pés e estabilize a posição antes de baixar a barra. Requer aprendizagem técnica presencial."
+    ],
+    "schematic": false,
+    "mixed": true,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense). Etapas complementares: ilustrações originais PenseFit.",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Clean_and_Jerk",
+    "sourceIds": [
+      "Clean_and_Jerk",
+      "diagram:jerk-finish"
+    ]
+  },
+  "Deadlift": {
+    "frames": [
+      {
+        "src": "assets/exercises/Barbell_Deadlift-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Barbell_Deadlift-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Posicione a barra próxima às canelas e segure com a coluna estável.",
+      "Empurre o chão, estendendo joelhos e quadris sem afastar a barra do corpo.",
+      "Retorne com quadril para trás e apoie a barra com controle."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Barbell_Deadlift",
+    "sourceIds": [
+      "Barbell_Deadlift"
+    ]
+  },
+  "Front Squat": {
+    "frames": [
+      {
+        "src": "assets/exercises/Front_Squat_Clean_Grip-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Front_Squat_Clean_Grip-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Apoie a barra à frente dos ombros e mantenha os cotovelos altos.",
+      "Agache mantendo os pés apoiados e o tronco estável.",
+      "Suba empurrando o chão, sem deixar os cotovelos caírem."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Front_Squat_Clean_Grip",
+    "sourceIds": [
+      "Front_Squat_Clean_Grip"
+    ]
+  },
+  "Back Squat": {
+    "frames": [
+      {
+        "src": "assets/exercises/Barbell_Full_Squat-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Barbell_Full_Squat-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Apoie a barra na parte muscular das costas e firme os pés.",
+      "Flexione quadris e joelhos, acompanhando a direção dos pés.",
+      "Retorne mantendo os apoios e a coluna estáveis."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Barbell_Full_Squat",
+    "sourceIds": [
+      "Barbell_Full_Squat"
+    ]
+  },
+  "Overhead Squat": {
+    "frames": [
+      {
+        "src": "assets/exercises/Overhead_Squat-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Overhead_Squat-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Estabilize a barra acima da cabeça com pegada aberta.",
+      "Agache mantendo os braços estendidos e a barra equilibrada sobre a base.",
+      "Levante com controle. Reduza a amplitude se perder a estabilidade e use orientação técnica."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Overhead_Squat",
+    "sourceIds": [
+      "Overhead_Squat"
+    ]
+  },
+  "Push Press": {
+    "frames": [
+      {
+        "src": "assets/exercises/Push_Press-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Push_Press-1.jpg",
+        "label": "Posição 2"
+      },
+      {
+        "src": "assets/exercises/diagram-push-press-finish-0.svg",
+        "label": "Extensão das pernas e dos braços"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Apoie a barra nos ombros com tronco firme.",
+      "Flexione ligeiramente os joelhos e estenda as pernas para iniciar o impulso.",
+      "Finalize estendendo os braços acima da cabeça, sem nova flexão de recepção."
+    ],
+    "schematic": false,
+    "mixed": true,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense). Etapas complementares: ilustrações originais PenseFit.",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Push_Press",
+    "sourceIds": [
+      "Push_Press",
+      "diagram:push-press-finish"
+    ]
+  },
+  "Push Jerk": {
+    "frames": [
+      {
+        "src": "assets/exercises/Power_Jerk-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Power_Jerk-1.jpg",
+        "label": "Posição 2"
+      },
+      {
+        "src": "assets/exercises/diagram-push-jerk-finish-0.svg",
+        "label": "Recepção com nova flexão dos joelhos"
+      },
+      {
+        "src": "assets/exercises/diagram-push-jerk-finish-1.svg",
+        "label": "Estender as pernas e estabilizar"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Com a barra nos ombros, faça uma pequena flexão de pernas.",
+      "Impulsione a barra e flexione novamente os joelhos para recebê-la com braços estendidos.",
+      "Estenda as pernas e estabilize antes de retornar."
+    ],
+    "schematic": false,
+    "mixed": true,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense). Etapas complementares: ilustrações originais PenseFit.",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Power_Jerk",
+    "sourceIds": [
+      "Power_Jerk",
+      "diagram:push-jerk-finish"
+    ]
+  },
+  "Thruster": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-thruster-0.svg",
+        "label": "Agachamento frontal"
+      },
+      {
+        "src": "assets/exercises/diagram-thruster-1.svg",
+        "label": "Extensão das pernas"
+      },
+      {
+        "src": "assets/exercises/diagram-thruster-2.svg",
+        "label": "Barra acima da cabeça"
+      }
+    ],
+    "equipment": "Barra",
+    "steps": [
+      "Inicie com a barra apoiada nos ombros e cotovelos altos.",
+      "Faça um agachamento frontal mantendo os pés apoiados.",
+      "Ao subir, use a extensão das pernas para conduzir a barra acima da cabeça e retorne aos ombros."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:thruster"
+    ]
+  },
+  "Pull-up": {
+    "frames": [
+      {
+        "src": "assets/exercises/Pullups-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Pullups-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Barra fixa",
+    "steps": [
+      "Segure uma barra firme com palmas para a frente e estabilize os ombros.",
+      "Puxe até o queixo ultrapassar a barra, sem impulso nesta variação estrita.",
+      "Desça com controle até estender os braços."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Pullups",
+    "sourceIds": [
+      "Pullups"
+    ]
+  },
+  "Chest-to-Bar": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-chest-to-bar-0.svg",
+        "label": "Suspensão ativa"
+      },
+      {
+        "src": "assets/exercises/diagram-chest-to-bar-1.svg",
+        "label": "Peito toca a barra"
+      }
+    ],
+    "equipment": "Barra fixa",
+    "steps": [
+      "Inicie suspenso com pegada firme e ombros ativos.",
+      "Puxe elevando o tronco até a parte alta do peito tocar a barra.",
+      "Retorne com controle à suspensão. A imagem mostra a variação estrita",
+      "o kipping exige aprendizagem específica."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:chest-to-bar"
+    ]
+  },
+  "Toes-to-Bar": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-toes-to-bar-0.svg",
+        "label": "Suspensão ativa"
+      },
+      {
+        "src": "assets/exercises/diagram-toes-to-bar-1.svg",
+        "label": "Elevar as pernas"
+      },
+      {
+        "src": "assets/exercises/diagram-toes-to-bar-2.svg",
+        "label": "Pés chegam à barra"
+      }
+    ],
+    "equipment": "Barra fixa",
+    "steps": [
+      "Comece suspenso em barra firme e mantenha os ombros ativos.",
+      "Eleve as pernas até aproximar os pés da barra, coordenando o tronco sem perder a pegada.",
+      "Retorne com controle. Progressões com joelhos flexionados ajudam na aprendizagem."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:toes-to-bar"
+    ]
+  },
+  "Muscle-up": {
+    "frames": [
+      {
+        "src": "assets/exercises/Kipping_Muscle_Up-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Kipping_Muscle_Up-1.jpg",
+        "label": "Posição 2"
+      },
+      {
+        "src": "assets/exercises/diagram-ring-muscle-up-finish-0.svg",
+        "label": "Transição do tronco sobre as argolas"
+      },
+      {
+        "src": "assets/exercises/diagram-ring-muscle-up-finish-1.svg",
+        "label": "Apoio com braços estendidos"
+      }
+    ],
+    "equipment": "Argolas",
+    "steps": [
+      "Domine primeiro a puxada e o apoio nas argolas, com orientação técnica.",
+      "Puxe as argolas para perto do tronco e faça a transição do peito sobre as mãos.",
+      "Estenda os cotovelos no apoio e retorne com controle. A sequência fotográfica mostra a variação com balanço."
+    ],
+    "schematic": false,
+    "mixed": true,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense). Etapas complementares: ilustrações originais PenseFit.",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Kipping_Muscle_Up",
+    "sourceIds": [
+      "Kipping_Muscle_Up",
+      "diagram:ring-muscle-up-finish"
+    ]
+  },
+  "Handstand Push-up": {
+    "frames": [
+      {
+        "src": "assets/exercises/Handstand_Push-Ups-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Handstand_Push-Ups-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Parede",
+    "steps": [
+      "Aprenda a sustentar o apoio invertido junto à parede com orientação.",
+      "Flexione os cotovelos para descer com controle, sem apoiar o peso abruptamente na cabeça.",
+      "Empurre o chão para voltar, mantendo o tronco alinhado."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Handstand_Push-Ups",
+    "sourceIds": [
+      "Handstand_Push-Ups"
+    ]
+  },
+  "Handstand Walk": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-handstand-walk-0.svg",
+        "label": "Equilíbrio invertido"
+      },
+      {
+        "src": "assets/exercises/diagram-handstand-walk-1.svg",
+        "label": "Transferir peso e avançar"
+      },
+      {
+        "src": "assets/exercises/diagram-handstand-walk-2.svg",
+        "label": "Alternar o apoio"
+      }
+    ],
+    "equipment": "Nenhum",
+    "steps": [
+      "Domine o apoio invertido estável e a saída segura antes de caminhar.",
+      "Transfira suavemente o peso para uma mão e avance a outra em um passo curto.",
+      "Alterne os apoios mantendo o corpo controlado. Treine com supervisão e espaço livre."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:handstand-walk"
+    ]
+  },
+  "Burpee": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-burpee-0.svg",
+        "label": "Peito próximo ao chão"
+      },
+      {
+        "src": "assets/exercises/diagram-burpee-1.svg",
+        "label": "Trazer os pés às mãos"
+      },
+      {
+        "src": "assets/exercises/diagram-burpee-2.svg",
+        "label": "Estender e saltar"
+      }
+    ],
+    "equipment": "Nenhum",
+    "steps": [
+      "De pé, leve as mãos ao chão e as pernas para trás.",
+      "Desça até o peito tocar o chão e empurre para trazer os pés de volta perto das mãos.",
+      "Levante e faça um pequeno salto com extensão do corpo, aterrissando com controle."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:burpee"
+    ]
+  },
+  "Pistol Squat": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-pistol-0.svg",
+        "label": "Apoio em uma perna"
+      },
+      {
+        "src": "assets/exercises/diagram-pistol-1.svg",
+        "label": "Agachar sem apoiar a outra perna"
+      }
+    ],
+    "equipment": "Nenhum",
+    "steps": [
+      "Fique apoiado em uma perna, elevando a outra à frente.",
+      "Agache na perna de apoio, mantendo o calcanhar no chão e a outra perna elevada.",
+      "Retorne sem impulso. Use apoio ou amplitude menor como progressão."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:pistol"
+    ]
+  },
+  "Sit-up": {
+    "frames": [
+      {
+        "src": "assets/exercises/Sit-Up-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Sit-Up-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Colchonete",
+    "steps": [
+      "Deite com joelhos flexionados e pés apoiados.",
+      "Eleve o tronco com controle, sem puxar a cabeça.",
+      "Desça lentamente até voltar ao apoio, respirando durante o movimento."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Sit-Up",
+    "sourceIds": [
+      "Sit-Up"
+    ]
+  },
+  "Double Under": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-double-under-0.svg",
+        "label": "Um salto"
+      },
+      {
+        "src": "assets/exercises/diagram-double-under-1.svg",
+        "label": "Duas passagens da corda"
+      }
+    ],
+    "equipment": "Corda",
+    "steps": [
+      "Segure as alças com cotovelos próximos ao corpo e corda atrás.",
+      "Faça um salto e gire a corda duas vezes sob os pés usando os punhos.",
+      "Aterrisse suavemente e mantenha o ritmo antes de repetir."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:double-under"
+    ]
+  },
+  "Single Under": {
+    "frames": [
+      {
+        "src": "assets/exercises/Rope_Jumping-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Rope_Jumping-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Corda",
+    "steps": [
+      "Mantenha as alças próximas ao quadril e cotovelos perto do tronco.",
+      "Gire a corda pelos punhos e faça um salto baixo para uma passagem.",
+      "Aterrisse suavemente e repita em ritmo confortável."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Rope_Jumping",
+    "sourceIds": [
+      "Rope_Jumping"
+    ]
+  },
+  "Box Jump": {
+    "frames": [
+      {
+        "src": "assets/exercises/Front_Box_Jump-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Front_Box_Jump-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Caixa",
+    "steps": [
+      "Use uma caixa firme de altura adequada à sua capacidade.",
+      "Salte com os dois pés e aterrisse com estabilidade sobre a caixa.",
+      "Estenda o quadril e desça com controle, preferencialmente um pé de cada vez."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Front_Box_Jump",
+    "sourceIds": [
+      "Front_Box_Jump"
+    ]
+  },
+  "Wall Ball": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-wall-ball-0.svg",
+        "label": "Agachar com a bola no peito"
+      },
+      {
+        "src": "assets/exercises/diagram-wall-ball-1.svg",
+        "label": "Estender e lançar ao alvo"
+      },
+      {
+        "src": "assets/exercises/diagram-wall-ball-2.svg",
+        "label": "Receber e amortecer"
+      }
+    ],
+    "equipment": "Medicine ball",
+    "steps": [
+      "Segure a bola à frente do peito, voltado para um alvo na parede.",
+      "Agache mantendo os pés apoiados e depois estenda pernas e braços para lançar.",
+      "Receba a bola com controle e absorva a descida antes de repetir."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:wall-ball"
+    ]
+  },
+  "Kettlebell Swing": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-kb-swing-0.svg",
+        "label": "Quadril para trás"
+      },
+      {
+        "src": "assets/exercises/diagram-kb-swing-1.svg",
+        "label": "Impulso do quadril até os ombros"
+      }
+    ],
+    "equipment": "Kettlebell",
+    "steps": [
+      "Segure o kettlebell com as duas mãos e leve o quadril para trás.",
+      "Estenda o quadril para conduzir a carga até a altura dos ombros nesta variação russa.",
+      "Deixe a carga retornar entre as pernas, com coluna estável e joelhos ligeiramente flexionados."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:kb-swing"
+    ]
+  },
+  "Row": {
+    "frames": [
+      {
+        "src": "assets/exercises/Rowing_Stationary-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Rowing_Stationary-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Remo",
+    "steps": [
+      "Ajuste os apoios dos pés e inicie com braços estendidos e joelhos flexionados.",
+      "Empurre com as pernas, abra o quadril e então puxe a alça para o tronco.",
+      "Retorne na ordem: braços, tronco e pernas."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Rowing_Stationary",
+    "sourceIds": [
+      "Rowing_Stationary"
+    ]
+  },
+  "Bike": {
+    "frames": [
+      {
+        "src": "assets/exercises/Bicycling_Stationary-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Bicycling_Stationary-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Bicicleta",
+    "steps": [
+      "Ajuste o banco para pedalar sem travar o joelho no ponto mais baixo.",
+      "Pedale mantendo o tronco estável e uma cadência confortável.",
+      "Reduza a resistência gradualmente antes de parar. A imagem mostra bicicleta estacionária."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Bicycling_Stationary",
+    "sourceIds": [
+      "Bicycling_Stationary"
+    ]
+  },
+  "Run": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-run-0.svg",
+        "label": "Apoio e avanço"
+      },
+      {
+        "src": "assets/exercises/diagram-run-1.svg",
+        "label": "Alternar pernas e braços"
+      }
+    ],
+    "equipment": "Nenhum",
+    "steps": [
+      "Comece em ritmo confortável com tronco alto e olhar à frente.",
+      "Alterne os apoios, deixando os braços acompanharem o movimento sem tensão.",
+      "Aumente o esforço gradualmente e reduza para caminhada ao encerrar."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:run"
+    ]
+  },
+  "SkiErg": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-ski-0.svg",
+        "label": "Alças acima da cabeça"
+      },
+      {
+        "src": "assets/exercises/diagram-ski-1.svg",
+        "label": "Puxar junto às coxas"
+      }
+    ],
+    "equipment": "SkiErg",
+    "steps": [
+      "Segure as alças acima da cabeça com cotovelos levemente flexionados.",
+      "Incline o tronco pelo quadril e puxe as alças para junto das coxas, usando o tronco e os braços.",
+      "Retorne em pé levando as mãos para cima, sem tracionar a lombar."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.concept2.com/blog/skierg-technique",
+    "sourceIds": [
+      "diagram:ski"
+    ]
+  },
+  "Air Squat": {
+    "frames": [
+      {
+        "src": "assets/exercises/Bodyweight_Squat-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Bodyweight_Squat-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Nenhum",
+    "steps": [
+      "Firme os pés aproximadamente na largura dos ombros.",
+      "Flexione quadris e joelhos mantendo calcanhares apoiados e joelhos na direção dos pés.",
+      "Volte à posição em pé com controle, sem quicar no fundo."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Bodyweight_Squat",
+    "sourceIds": [
+      "Bodyweight_Squat"
+    ]
+  },
+  "Push-up": {
+    "frames": [
+      {
+        "src": "assets/exercises/Pushups-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Pushups-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Nenhum",
+    "steps": [
+      "Apoie as mãos sob ou ligeiramente além dos ombros e alinhe o tronco.",
+      "Flexione os cotovelos, aproximando o peito do chão sem deixar o quadril cair.",
+      "Empurre o chão para voltar à posição inicial."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Pushups",
+    "sourceIds": [
+      "Pushups"
+    ]
+  },
+  "Ring Row": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-ring-row-0.svg",
+        "label": "Corpo alinhado, braços estendidos"
+      },
+      {
+        "src": "assets/exercises/diagram-ring-row-1.svg",
+        "label": "Puxar o peito até as argolas"
+      }
+    ],
+    "equipment": "Argolas",
+    "steps": [
+      "Ajuste as argolas e incline o corpo com calcanhares apoiados e braços estendidos.",
+      "Puxe o peito em direção às argolas, mantendo o corpo alinhado.",
+      "Retorne devagar. Uma posição mais vertical reduz a dificuldade."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:ring-row"
+    ]
+  },
+  "Mobilidade de quadril": {
+    "frames": [
+      {
+        "src": "assets/exercises/Standing_Hip_Circles-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Standing_Hip_Circles-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Nenhum",
+    "steps": [
+      "Fique em pé com base estável",
+      "use um apoio se precisar.",
+      "Eleve um joelho e faça um círculo lento com a coxa, abrindo e fechando o quadril.",
+      "Mantenha o tronco estável, inverta o sentido e troque a perna sem forçar a amplitude."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Standing_Hip_Circles",
+    "sourceIds": [
+      "Standing_Hip_Circles"
+    ]
+  },
+  "Alongamento de panturrilha": {
+    "frames": [
+      {
+        "src": "assets/exercises/Calf_Stretch_Hands_Against_Wall-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Calf_Stretch_Hands_Against_Wall-1.jpg",
+        "label": "Posição 2"
+      }
+    ],
+    "equipment": "Parede",
+    "steps": [
+      "Apoie as mãos na parede e leve uma perna para trás.",
+      "Mantenha o calcanhar de trás apoiado e o joelho estendido enquanto avança o corpo suavemente.",
+      "Mantenha tensão leve, sem balanços, e troque o lado."
+    ],
+    "schematic": false,
+    "mixed": false,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense).",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Calf_Stretch_Hands_Against_Wall",
+    "sourceIds": [
+      "Calf_Stretch_Hands_Against_Wall"
+    ]
+  },
+  "Box Step-up": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-step-up-0.svg",
+        "label": "Todo o pé no degrau"
+      },
+      {
+        "src": "assets/exercises/diagram-step-up-1.svg",
+        "label": "Subir com a perna de apoio"
+      }
+    ],
+    "equipment": "Caixa",
+    "steps": [
+      "Coloque todo o pé sobre um degrau baixo e estável.",
+      "Estenda a perna de apoio para subir sem impulso da perna de baixo.",
+      "Desça de forma controlada e alterne a perna de início."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:step-up"
+    ]
+  },
+  "Ring Muscle-up": {
+    "frames": [
+      {
+        "src": "assets/exercises/Kipping_Muscle_Up-0.jpg",
+        "label": "Posição 1"
+      },
+      {
+        "src": "assets/exercises/Kipping_Muscle_Up-1.jpg",
+        "label": "Posição 2"
+      },
+      {
+        "src": "assets/exercises/diagram-ring-muscle-up-finish-0.svg",
+        "label": "Transição do tronco sobre as argolas"
+      },
+      {
+        "src": "assets/exercises/diagram-ring-muscle-up-finish-1.svg",
+        "label": "Apoio com braços estendidos"
+      }
+    ],
+    "equipment": "Argolas",
+    "steps": [
+      "Domine primeiro a puxada e o apoio nas argolas, com orientação técnica.",
+      "Puxe e faça a transição do peito sobre as mãos, mantendo as argolas perto do corpo.",
+      "Estenda os cotovelos e estabilize o apoio. As fotos mostram a variação com balanço."
+    ],
+    "schematic": false,
+    "mixed": true,
+    "credit": "Fotos: Free Exercise DB · domínio público (Unlicense). Etapas complementares: ilustrações originais PenseFit.",
+    "reference": "https://github.com/yuhonas/free-exercise-db/tree/f00c92c7dcf1216a928a52c3706c7ce8e2f71ed5/exercises/Kipping_Muscle_Up",
+    "sourceIds": [
+      "Kipping_Muscle_Up",
+      "diagram:ring-muscle-up-finish"
+    ]
+  },
+  "Bar Muscle-up": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-bar-muscle-up-0.svg",
+        "label": "Suspensão na barra"
+      },
+      {
+        "src": "assets/exercises/diagram-bar-muscle-up-1.svg",
+        "label": "Transição do peito sobre a barra"
+      },
+      {
+        "src": "assets/exercises/diagram-bar-muscle-up-2.svg",
+        "label": "Estabilizar no apoio"
+      }
+    ],
+    "equipment": "Barra fixa",
+    "steps": [
+      "Domine a suspensão, a puxada alta e o apoio na barra com orientação técnica.",
+      "Puxe o tronco acima da barra e faça a transição dos ombros sobre as mãos.",
+      "Estenda os cotovelos no apoio e retorne de forma controlada."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:bar-muscle-up"
+    ]
+  },
+  "Handstand": {
+    "frames": [
+      {
+        "src": "assets/exercises/diagram-handstand-0.svg",
+        "label": "Apoio invertido junto à parede"
+      }
+    ],
+    "equipment": "Parede",
+    "steps": [
+      "Aprenda a entrada e a saída segura com orientação e apoio adequado.",
+      "Apoie as mãos com braços estendidos e estabilize o corpo invertido.",
+      "Respire e encerre antes de perder o alinhamento ou o controle dos apoios."
+    ],
+    "schematic": true,
+    "mixed": false,
+    "credit": "Ilustração esquemática original PenseFit.",
+    "reference": "https://www.crossfit.com/crossfit-movements",
+    "sourceIds": [
+      "diagram:handstand"
+    ]
+  }
+}

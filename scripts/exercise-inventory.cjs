@@ -1,0 +1,4 @@
+const fs=require('node:fs'),vm=require('node:vm'),path=require('node:path'),{pathToFileURL}=require('node:url');
+async function inventory(){const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8'),start=script.indexOf('const workouts=')+'const workouts='.length,end=script.indexOf('const meals=');const workouts=vm.runInNewContext(script.slice(start,end).trim().replace(/;$/,''));global.window={PenseFit:{getWorkouts:()=>structuredClone(workouts)}};const catalog=await import(pathToFileURL(path.join(__dirname,'../src/platform/catalog.mjs')));return{workouts,exercises:catalog.exercises()}}
+module.exports=inventory;
+if(require.main===module)inventory().then(({exercises})=>{console.log(JSON.stringify(exercises.map(({id,name,media,visual})=>({id,name,frames:media?.frames?.length||0,legacyImage:!!visual})),null,2))});

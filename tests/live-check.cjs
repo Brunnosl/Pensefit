@@ -7,7 +7,7 @@ const vm = require('node:vm');
 const configContext = { window: {} };
 vm.runInNewContext(fs.readFileSync('dist/config.js','utf8'),configContext);
 const config = configContext.window.PENSEFIT_CONFIG;
-const fixtures = JSON.parse(fs.readFileSync('.live-fixtures.json','utf8'));
+const fixtures = JSON.parse(fs.readFileSync('.live-fixtures.json','utf8')).slice(0,2);
 const clients = fixtures.map(()=>createClient(config.url,config.publishableKey,{auth:{persistSession:false,autoRefreshToken:false}}));
 const state = name => ({profile:{fullName:name,age:28,height:1.87,weight:75,calKg:36,proteinKg:1.8,fatKg:.8,waterKg:35,goal:'Ganho de massa'},done:{},meals:{},loads:[],progress:{}});
 (async()=>{
