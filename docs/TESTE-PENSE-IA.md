@@ -27,6 +27,6 @@ Os nove cenários de `tests/live-ai-browser.cjs` passaram:
 8. Envio e resposta em emulação de celular de 390 px, sem transbordamento horizontal.
 9. Exclusão de uma conversa e remoção do histórico na interface.
 
-Nenhum erro de JavaScript foi observado. Não foi necessária alteração funcional no app. O script de teste e este registro foram adicionados ao repositório.
+Nenhum erro de JavaScript foi observado. A revisão visual revelou que o atalho flutuante da IA podia cobrir parte do botão Enviar no celular. O atalho passou a ficar oculto dentro da própria tela do Pense AI, permanecendo disponível nas outras áreas. `tests/ai.spec.cjs` verifica a área de toque em 360 e 390 px e o retorno do atalho ao sair da IA.
 
 As quatro contas temporárias tiveram suas sessões e registros removidos ao final. A consulta de conferência não encontrou arquivos privados desses testes. Os testes demonstram funcionamento no momento da execução; não comprovam a qualidade de todas as respostas possíveis do modelo nem disponibilidade futura do provedor.
