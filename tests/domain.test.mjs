@@ -1,6 +1,19 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {FOODS,RECIPES,recipeAllowed} from '../src/platform/catalog.mjs';
+import {matchesRecipe,profileRecipeGoal} from '../src/platform/recipe-catalog.mjs';
 import {shortage,mergeShopping,nutritionFor,estimateEnergy,estimate1RM,timerState,ReliableTimer,validateRecord,comparable,rankingScore,sessionVolume,achievements,streak} from '../src/platform/domain.mjs';
+
+test('catálogo de receitas tem composição rastreável, variedade e alimentos no estado correto',()=>{
+ assert.equal(RECIPES.length,28);assert.equal(new Set(RECIPES.map(r=>r.id)).size,28);
+ for(const r of RECIPES){assert.ok(r.steps.length>=3);assert.ok(r.servings>0);assert.ok(r.nutrition.calories>0);for(const i of r.ingredients){const f=FOODS.find(f=>f.id===i.foodId);assert.equal(i.name,f.name);assert.equal(i.unit,'g');assert.ok(i.quantity>0);assert.ok(f.sourceURL.startsWith('https://fdc.nal.usda.gov/'));for(const key of ['calories','protein','carbs','fat','fiber'])assert.ok(Number.isFinite(f[key])&&f[key]>=0)}}
+ for(const goal of ['gain','loss','maintain'])for(const meal of ['breakfast','lunch','dinner','snack'])assert.ok(RECIPES.filter(r=>matchesRecipe(r,{goal,meal})).length>=3);
+});
+test('objetivo alimentar vem da preferência explícita e busca ignora acentos',()=>{
+ assert.equal(profileRecipeGoal({primaryGoal:'Ganhar massa muscular'}),'gain');assert.equal(profileRecipeGoal({primaryGoal:'Reduzir gordura'}),'loss');assert.equal(profileRecipeGoal({primaryGoal:'Melhorar definição'}),'loss');assert.equal(profileRecipeGoal({primaryGoal:'Manter uma rotina saudável'}),'maintain');
+ assert.ok(matchesRecipe(RECIPES.find(r=>r.id==='chickpea-rice'),{query:'GRAO-DE-BICO'}));assert.ok(!matchesRecipe(RECIPES.find(r=>r.id==='chicken-beans'),{meal:'breakfast'}));
+ assert.ok(RECIPES.filter(r=>recipeAllowed(r,{foodPreferences:'vegana'})).every(r=>!r.ingredients.some(i=>/frango|ovo|iogurte|truta/i.test(i.name))));
+});
 test('despensa agrega quantidades compatíveis, ignora vencidos e não inventa conversões caseiras',()=>{
  const pantry=[{name:'Arroz cozido',quantity:.2,unit:'kg',expires:'2026-10-15'},{name:'Arroz cozido',quantity:50,unit:'g'},{name:'Frango',quantity:500,unit:'g',expires:'2026-10-10'}];
  const needed=shortage([{name:'Arroz cozido',quantity:300,unit:'g'},{name:'Frango',quantity:100,unit:'g'},{name:'Legumes',quantity:null,unit:'g'},{name:'Aveia',quantity:2,unit:'colher de sopa'}],pantry,'2026-10-12');

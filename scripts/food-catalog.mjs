@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-const ids=[168878,171477,171077,173904,173944,169414,173718,170567];
+const ids=[168878,171477,171077,173904,173944,169414,173718,170567,173424,173735,172421,170440,168483,169967,170394,170457,170894,171688,173757,171413];
 const response=await fetch('https://api.nal.usda.gov/fdc/v1/foods?api_key=DEMO_KEY',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({fdcIds:ids})});
 if(!response.ok)throw new Error('USDA: '+response.status);
 const data=await response.json();
