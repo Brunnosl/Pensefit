@@ -4,10 +4,11 @@ const fs=require('node:fs');
 const fixtures=JSON.parse(fs.readFileSync('.live-fixtures.json','utf8'));
 const baseURL=process.env.PENSEFIT_TEST_URL||'https://pensefit-rose.vercel.app/';
 const fixture=fixtures[Number(process.env.PENSEFIT_TEST_USER||2)];
+const mobile=process.env.PENSEFIT_TEST_MOBILE==='1';
 const errors=[],failures=[],passed=[];
 (async()=>{
  const browser=await chromium.launch({channel:'chrome',headless:true});
- const context=await browser.newContext({serviceWorkers:'block',acceptDownloads:true});
+ const context=await browser.newContext({serviceWorkers:'block',acceptDownloads:true,isMobile:mobile,hasTouch:mobile,...(mobile?{viewport:{width:390,height:844}}:{})});
  const page=await context.newPage();page.setDefaultTimeout(15000);
  page.on('pageerror',e=>errors.push(e.message));
  page.on('response',r=>{if(r.status()>=400&&new URL(r.url()).origin===new URL(baseURL).origin)failures.push(r.status()+' '+new URL(r.url()).pathname)});
@@ -15,7 +16,7 @@ const errors=[],failures=[],passed=[];
  const field=(name,value)=>page.locator('#pf-'+name).fill(String(value));
  const submit=async()=>{await page.locator('#platformDialog [type="submit"]').click();await expect(page.locator('#platformDialog .dialog-error')).toBeHidden()};
  const close=async()=>{if(await page.locator('#platformDialog').isVisible())await action('close-dialog')};
- const navigate=async name=>{await close();await page.evaluate(name=>window.PenseFit.navigate(name),name)};
+ const navigate=async name=>{await close();if(mobile){await page.locator('#mobileMenu').click();await page.locator(`#platformDialog [data-action="mobile-navigate"][data-page="${name}"]`).click()}else await page.evaluate(name=>window.PenseFit.navigate(name),name)};
  const tab=(module,name)=>page.locator(`[data-module="${module}"][data-tab="${name}"]:visible`).click();
  const step=async(name,fn)=>{try{await fn();passed.push(name);console.log('OK: '+name)}catch(e){failures.push(name+': '+e.message);console.error('FAIL: '+name+': '+e.message);await page.screenshot({path:'test-results/live-failure-'+failures.length+'.png',fullPage:true});await close().catch(()=>{})}};
  const count=kind=>page.evaluate(kind=>window.PensePlatform.store.cache[kind]?.length||0,kind);
@@ -39,7 +40,7 @@ const errors=[],failures=[],passed=[];
   await step('Corrida manual e tênis',async()=>{await navigate('run');await tab('run','shoes');await action('run-shoe-new');await field('shoe-brand','Teste');await field('shoe-model','Modelo de auditoria');let before=await count('run_shoes');await submit();await added('run_shoes',before);await tab('run','history');await action('run-manual');await field('run-km',5);await field('run-minutes',30);before=await count('run_activities');await submit();await added('run_activities',before);await expect(page.locator('#runHost')).toContainText('Sem recorde')});
   await step('Importação manual de integração sem duplicação',async()=>{await navigate('integrations');const content=JSON.stringify([{externalId:'audit-activity-'+Date.now(),name:'Atividade de auditoria',date:'2026-10-19',distanceMeters:1000,durationSeconds:600}]);const before=await count('integrations');for(let i=0;i<2;i++){await action('integration-import');await page.locator('#pf-activities-file').setInputFiles({name:'activity.json',mimeType:'application/json',buffer:Buffer.from(content)});await submit();await expect(page.locator('#platformDialog')).toBeHidden()}await added('integrations',before)});
   await step('Mobile: módulos sem transbordamento horizontal',async()=>{await page.setViewportSize({width:390,height:844});for(const name of ['dashboard','workout','nutrition','progress','profile','active','run','wod','ai','calendar','library','loads','recovery','reports','community','integrations']){await navigate(name);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),name).toBe(true)}await page.screenshot({path:'test-results/live-mobile.png',fullPage:true})});
-  await page.setViewportSize({width:1280,height:900});
+  if(!mobile)await page.setViewportSize({width:1280,height:900});
   await step('Hidratação e registro alimentar',async()=>{await navigate('nutrition');await tab('nutri','overview');let before=await count('hydration');await action('water-add');await added('hydration',before);await action('meal-log-new');await field('meal-name','Refeição de auditoria');before=await count('meal_logs');await submit();await added('meal_logs',before)});
   await step('Plano alimentar revisado e ativado',async()=>{await navigate('nutrition');await tab('nutri','professional');await action('nutrition-plan-new');await field('nutrition-plan-name','Plano sintético de auditoria');await field('nutrition-professional','Profissional fictício');await field('plan-meal-name-0','Almoço de teste');await field('plan-meal-time-0','12:30');await field('plan-meal-ingredients-0','Arroz branco cozido | 150 | g');const before=await count('nutrition_plans');await submit();await added('nutrition_plans',before);await action('nutrition-plan-activate');await submit();await expect(page.locator('#platformDialog')).toBeHidden();await expect(page.locator('#nutriHost')).toContainText('Plano sintético de auditoria')});
   await step('Foto privada: envio e exclusão',async()=>{await navigate('progress');await action('measurement-photos');await page.locator('#pf-photo-file').setInputFiles({name:'foto.png',mimeType:'image/png',buffer:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIHWP4z8DwHwAFgAI/ScLbtAAAAABJRU5ErkJggg==','base64')});const before=await count('photos');await submit();await added('photos',before);await expect(page.locator('#platformDialog')).toBeHidden();await action('photo-delete');await submit();await expect.poll(()=>count('photos')).toBe(before)});
@@ -47,5 +48,5 @@ const errors=[],failures=[],passed=[];
   await step('Funções reais aceitam o domínio publicado e exigem confirmação de exclusão',async()=>{const result=await page.evaluate(async()=>{const client=window.PensePlatform.store.client;const status=await client.functions.invoke('pensefit-ai',{body:{action:'status'}});const foods=await client.functions.invoke('pensefit-foods',{body:{query:'3017620422003'}});const denied=await client.functions.invoke('pensefit-account',{body:{action:'delete',confirmation:'ERRADO'}});return{statusError:status.error?.message||null,configured:status.data?.configured,foodsError:foods.error?.message||null,foods:foods.data?.foods?.length,deleteStatus:denied.error?.context?.status}});expect(result.statusError).toBeNull();expect(result.configured).toBe(true);expect(result.foodsError).toBeNull();expect(result.foods).toBeGreaterThan(0);expect(result.deleteStatus).toBe(400)});
   await step('Sair limpa a sessão',async()=>{await page.locator('#logoutBtn').click();await expect(page.locator('#loginForm')).toBeVisible();await expect(page.locator('#appShell')).toBeHidden()});
   expect(errors).toEqual([]);expect(failures).toEqual([]);
- }finally{fs.writeFileSync('test-results/live-browser.json',JSON.stringify({baseURL,passed,failures,errors},null,2));await browser.close()}
+ }finally{fs.writeFileSync('test-results/live-browser.json',JSON.stringify({baseURL,mobile,passed,failures,errors},null,2));await browser.close()}
 })().catch(e=>{console.error(e.message);process.exitCode=1});
