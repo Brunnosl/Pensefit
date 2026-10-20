@@ -28,3 +28,4 @@ As imagens existentes pertencem às quatro receitas anteriores. As novas receita
 - Os testes abrem os detalhes das 28 receitas, verificam filtros no computador e no celular, seleção inicial pelo perfil, busca por ingrediente, estado sem resultados e favoritos sem duplicação.
 - O planejamento semanal foi verificado com objetivo de ganho de massa, café da manhã e perfil vegano com restrição a amêndoas; todas as sugestões respeitaram essa seleção.
 - A composição dos ingredientes é validada contra os IDs locais da fonte oficial, com quantidades e estado de preparo explícitos.
+- Os quatro testes de receitas passaram também no site publicado no Vercel, com backend simulado para não criar registros em contas reais. O JavaScript publicado corresponde ao compilado local; o CSS corresponde após normalizar as quebras de linha do Git.
